@@ -6,9 +6,8 @@
   <img src="img/encrypted.png" alt="Encrypted pixel art of a city, noisy image" style="width: 40%;"/>
 </div>
 
-Tool to encrypt/decrypt images of type PNM (PBM · PGM · PPM)
 
-The encryption is done using LFSR techniques (XOR encryption), see : [https://en.wikipedia.org/wiki/Linear-feedback_shift_register]
+Tool to encrypt/decrypt images of type PNM (PBM · PGM · PPM). The encryption is done using LFSR techniques (XOR encryption), see : [https://en.wikipedia.org/wiki/Linear-feedback_shift_register]
 
 Main points of this project :
 
