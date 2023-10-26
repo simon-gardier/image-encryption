@@ -7,7 +7,12 @@
 </div>
 
 Tool to encrypt/decrypt images of type PNM (PBM · PGM · PPM)
+
 The encryption is done using LFSR techniques (XOR encryption), see : [https://en.wikipedia.org/wiki/Linear-feedback_shift_register]
+
+Main points of this project :
+
+C-Language, Makefile, static libraries, encryption methods, image processing, unit testing, documentation tool (doxygen) and custom structures.
 
 # Table of Contents
 1. [Setup](#setup)
