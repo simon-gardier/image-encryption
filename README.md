@@ -1,8 +1,8 @@
 # CryptLFSR - Command Line Tool for PNM Images Encryption
 
 <div style="display: flex; justify-content: space-around; align-items: center;">
-  <img src="img/decrypted.png" alt="Pixel art of a city"/>
-  <img src="img/encrypted.png" alt="Encrypted of the pixel art of a city, noisy image"/>
+  <img src="img/decrypted.png" alt="Pixel art of a city" style="width: 40%;"/>
+  <img src="img/encrypted.png" alt="Encrypted pixel art of a city, noisy image" style="width: 40%;"/>
 </div>
 
 Tool to encrypt/decrypt images of type PNM (PBM · PGM · PPM)
@@ -22,7 +22,7 @@ The encryption is done using LFSR techniques (XOR encryption), see : [https://en
 
 - Clone the repository
 ```console
-    git clone git@github.com:sgardier/CryptLFSR.git locationOfTheprogram
+git clone git@github.com:sgardier/CryptLFSR.git locationOfTheprogram
 ```
 - Go to the folder of the projet
 ```console
@@ -51,9 +51,7 @@ A file name can not contain any of the following characters : `/\\:*?\"<>|`
 
 ## Usage example
 Encrypt an image using password "secretpassword123"
-```console
-make
-```
+
 ```console
 ./CryptLFSR -i img/city.ppm -o city_encrypted.ppm -p veryGoodPassword -t 5
 ```
