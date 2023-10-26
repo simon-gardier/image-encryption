@@ -2,7 +2,7 @@
 
 <div style="display: flex; justify-content: space-around; align-items: center;">
   <img src="img/decrypted.png" alt="Pixel art of a city" style="width: 40%;"/>
-  <img src="img/left.png" alt="Arroew poiting from left to right" style="width: 10%;"/>
+  <img src="img/left.png" alt="Arrow poiting from left to right" style="width: 10%;"/>
   <img src="img/encrypted.png" alt="Encrypted pixel art of a city, noisy image" style="width: 40%;"/>
 </div>
 
@@ -72,8 +72,9 @@ Then open doc/html/index.html
 open doc/html/index.html
 ```
 
-## Used libraries
+## Used resources
 - Seatest : [https://code.google.com/archive/p/seatest/]
+- Arrow image of this README : [https://www.deviantart.com/s-a-r-c/art/Right-Arrow-Sticker-823590894]
 
 ## Future improvements
 - Multithreading for the processing of the pixels matrix
