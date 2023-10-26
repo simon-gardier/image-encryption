@@ -1,18 +1,18 @@
-# CryptLFSR - Command Line Images Encryption
+# CryptLFSR - Command Line Tool for PNM Images Encryption
 
 <div style="display: flex; justify-content: space-around; align-items: center;">
-  <img src="img/decrypted.ppm" alt="Pixel art of a city"/>
-  <img src="img/encrypted.ppm" alt="Encrypted of the pixel art of a city, noisy image"/>
+  <img src="img/decrypted.png" alt="Pixel art of a city"/>
+  <img src="img/encrypted.png" alt="Encrypted of the pixel art of a city, noisy image"/>
 </div>
 
-Command line program made to encrypt images of type PNM (PBM · PGM · PPM)
-The encrpytion is do using LFSR techniques (XOR encryption), see : [https://en.wikipedia.org/wiki/Linear-feedback_shift_register]
+Tool to encrypt/decrypt images of type PNM (PBM · PGM · PPM)
+The encryption is done using LFSR techniques (XOR encryption), see : [https://en.wikipedia.org/wiki/Linear-feedback_shift_register]
 
 # Table of Contents
 1. [Setup](#setup)
 2. [Parameters](#parameters)
 3. [Forbidden file name](#forbidden-file-name-for--o)
-4. [Usage example](#usage)
+4. [Usage example](#usage-example)
 5. [Documentation](#documentation)
 6. [Used libraries](#used-libraries)
 7. [Future improvements](#future-improvements)
@@ -22,7 +22,7 @@ The encrpytion is do using LFSR techniques (XOR encryption), see : [https://en.w
 
 - Clone the repository
 ```console
-    git clone locationOfTheprogram
+    git clone git@github.com:sgardier/CryptLFSR.git locationOfTheprogram
 ```
 - Go to the folder of the projet
 ```console
@@ -35,13 +35,19 @@ make
 
 ## Parameters
 All parameters are mandatory
--`-i`: the path of the image you want to encrypt / decrypt
--`-o`: the path for the encrypted/decrypted image, can not contain `/\\:*?\"<>|`
--`-p`: a password (e.g., myPassword@!)
--`-t`: the tap value for the LFSR encryption (see : [https://en.wikipedia.org/wiki/Linear-feedback_shift_register])
+
+`-i`: the path of the image you want to encrypt / decrypt
+
+`-o`: the path for the encrypted/decrypted image, can not contain `/\\:*?\"<>|`
+
+`-p`: a password (e.g., myPassword@!)
+
+`-t`: the tap value for the LFSR encryption (see : [https://en.wikipedia.org/wiki/Linear-feedback_shift_register])
+
+Notice : only images of type P1, P2 and P3 are supported
 
 ## Forbidden file name for -o
-A file name can not contain any of the following character : `/\\:*?\"<>|`
+A file name can not contain any of the following characters : `/\\:*?\"<>|`
 
 ## Usage example
 Encrypt an image using password "secretpassword123"
@@ -70,5 +76,6 @@ open doc/html/index.html
 ## Used libraries
 - Seatest : [https://code.google.com/archive/p/seatest/]
 
-## Future improvements <a id="futurimprov"></a>
+## Future improvements
 - Multithreading for the processing of the pixels matrix
+- Support of the other types of pnm images
