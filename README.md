@@ -2,6 +2,7 @@
 
 <div style="display: flex; justify-content: space-around; align-items: center;">
   <img src="img/decrypted.png" alt="Pixel art of a city" style="width: 40%;"/>
+  <img src="img/left.png" alt="Arroew poiting from left to right" style="width: 10%;"/>
   <img src="img/encrypted.png" alt="Encrypted pixel art of a city, noisy image" style="width: 40%;"/>
 </div>
 
