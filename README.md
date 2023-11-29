@@ -1,4 +1,4 @@
-# CryptLFSR - Command Line Tool for PNM Images Encryption
+# Image encryption - Command Line Tool for PNM Images Encryption
 
 <div style="display: flex; justify-content: space-around; align-items: center;">
   <img src="img/decrypted.png" alt="Pixel art of a city" style="width: 40%;"/>
