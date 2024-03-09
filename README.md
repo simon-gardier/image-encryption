@@ -39,17 +39,18 @@ make
 ```
 
 ## Parameters
-All parameters are mandatory
+Note :
 
-`-i`: the path of the image you want to encrypt / decrypt
+`-i` the path of the image you want to encrypt / decrypt
 
-`-o`: the path for the encrypted/decrypted image, can not contain `/\\:*?\"<>|`
+`-o` the path for the encrypted/decrypted image, can not contain `/\\:*?\"<>|`
 
-`-p`: a password (e.g., myPassword@!)
+`-p` a password (e.g., myPassword@!)
 
-`-t`: the tap value for the LFSR encryption (see : [https://en.wikipedia.org/wiki/Linear-feedback_shift_register])
+`-t` the tap value for the LFSR encryption (see : https://en.wikipedia.org/wiki/Linear-feedback_shift_register)
 
-Notice : only images of type P1, P2 and P3 are supported
+Notice : - Only images of type P1, P2 and P3 (ppm, pnm, pgm) are supported
+         - All parameters are mandatory
 
 ## Forbidden file name for -o
 A file name can not contain any of the following characters : `/\\:*?\"<>|`
@@ -79,7 +80,7 @@ open doc/html/index.html
 ## Used resources
 - Seatest : [https://code.google.com/archive/p/seatest/]
 - Arrow image of this README : [https://www.deviantart.com/s-a-r-c/art/Right-Arrow-Sticker-823590894]
-
+- DALL-E : 
 ## Future improvements
 - Multithreading for the processing of the pixels matrix
 - Support of the other types of pnm images
