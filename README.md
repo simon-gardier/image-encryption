@@ -49,8 +49,9 @@ Note :
 
 `-t` the tap value for the LFSR encryption (see : https://en.wikipedia.org/wiki/Linear-feedback_shift_register)
 
-Notice : - Only images of type P1, P2 and P3 (ppm, pnm, pgm) are supported
-         - All parameters are mandatory
+Note : 
+- Only images of type P1, P2 and P3 (ppm, pnm, pgm) are supported
+- All parameters are mandatory
 
 ## Forbidden file name for -o
 A file name can not contain any of the following characters : `/\\:*?\"<>|`
