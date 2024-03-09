@@ -79,9 +79,9 @@ open doc/html/index.html
 ```
 
 ## Used resources
-- Seatest : [https://code.google.com/archive/p/seatest/]
-- Arrow image of this README : [https://www.deviantart.com/s-a-r-c/art/Right-Arrow-Sticker-823590894]
-- DALL-E : 
+- Seatest : https://code.google.com/archive/p/seatest/
+- Arrow image of this README : https://www.deviantart.com/s-a-r-c/art/Right-Arrow-Sticker-823590894
+- DALL-E for the pixel art illustration on this README
 ## Future improvements
 - Multithreading for the processing of the pixels matrix
 - Support of the other types of pnm images
