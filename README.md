@@ -23,6 +23,7 @@ C-Language, Makefile, static libraries, encryption methods, image processing, un
 5. [Documentation](#documentation)
 6. [Used libraries](#used-libraries)
 7. [Future improvements](#future-improvements)
+8. [Credits](#credits)
 
 ## Setup
 - Install gcc ([https://gcc.gnu.org/install/])
@@ -33,7 +34,7 @@ git clone git@github.com:sgardier/CryptLFSR.git locationOfTheProgram
 ```
 - Go to the folder of the projet
 ```console
-cd locationOfTheprogram
+cd locationOfTheProgram
 ```
 - Run the ```make``` command at the root of the directory
 ```console
@@ -84,6 +85,10 @@ open doc/html/index.html
 - Seatest : https://code.google.com/archive/p/seatest/
 - Arrow image of this README : https://www.deviantart.com/s-a-r-c/art/Right-Arrow-Sticker-823590894
 - DALL-E for the pixel art illustration on this README
+
 ## Future improvements
 - Multithreading for the processing of the pixels matrix
 - Support of the other types of pnm images
+
+## Credits
+- [Simon Gardier](https://github.com/sgardier) (Author)
