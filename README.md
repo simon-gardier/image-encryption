@@ -27,7 +27,7 @@ C-Language, Makefile, static libraries, encryption methods, image processing, un
 
 - Clone the repository
 ```console
-git clone git@github.com:sgardier/CryptLFSR.git locationOfTheprogram
+git clone git@github.com:sgardier/CryptLFSR.git locationOfTheProgram
 ```
 - Go to the folder of the projet
 ```console
