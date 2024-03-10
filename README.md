@@ -23,7 +23,7 @@ C-Language, Makefile, static libraries, encryption methods, image processing, un
 3. [Forbidden file name](#forbidden-file-name-for--o)
 4. [Usage example](#usage-example)
 5. [Documentation](#documentation)
-6. [Used libraries](#used-libraries)
+6. [Used resources](#used-resources)
 7. [Future improvements](#future-improvements)
 8. [Credits](#credits)
 
