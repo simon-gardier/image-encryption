@@ -9,7 +9,9 @@
 </div>
 
 
-Tool to encrypt/decrypt images of type PNM (PBM · PGM · PPM). The encryption is done using LFSR techniques (XOR encryption), see : [https://en.wikipedia.org/wiki/Linear-feedback_shift_register]
+Tool to encrypt/decrypt images of type PNM (PBM · PGM · PPM). The encryption is done using LFSR techniques (XOR encryption).<br>
+See : https://en.wikipedia.org/wiki/Linear-feedback_shift_register
+This project was made in the context of the "Complement to programming" course (INFO0974) given by Pr. Donnet
 
 Main points of this project :
 
