@@ -44,7 +44,6 @@ make
 ```
 
 ## Parameters
-Note :
 
 `-i` the path of the image you want to encrypt / decrypt
 
