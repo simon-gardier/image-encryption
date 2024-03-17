@@ -17,7 +17,7 @@ Main points of this project :
 
 C-Language, Makefile, static libraries, encryption methods, image processing, unit testing, documentation tool (doxygen) and custom structures.
 
-## Table of Contents
+## Summary
 1. [Setup](#setup)
 2. [Parameters](#parameters)
 3. [Forbidden file name](#forbidden-file-name-for--o)
