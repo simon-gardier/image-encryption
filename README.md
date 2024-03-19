@@ -92,4 +92,4 @@ open doc/html/index.html
 - Support of the other types of pnm images
 
 ## Credits
-- [Simon Gardier](https://github.com/sgardier) (Author)
+- [Simon Gardier](https://github.com/simon-gardier) (Author)
